@@ -6,7 +6,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine("Här kommer en ny rad");
+        Console.WriteLine("Welcome to this super awsome game!");
+        Console.WriteLine("Choose a nickname:");
+        string userNickname = Console.ReadLine();
+        Console.WriteLine($"Welcome {userNickname}!");
     }
 }
